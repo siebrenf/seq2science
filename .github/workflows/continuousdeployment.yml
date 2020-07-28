@@ -26,7 +26,7 @@ jobs:
     - name: Create Release
       uses: actions/create-release@latest
       env:
-        GITHUB_TOKEN: ${{ secrets.ALLCAPS_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.ALLCAPSNOSPACE }}
       with:
         tag_name: v0.0.6
         release_name: Release v0.0.6
