@@ -26,7 +26,7 @@ All changed fall under either one of these types: `added`, `changed`, `deprecate
   - for us in ANANSE, for instance
 - `seq2science explain` now retrieves messages from `explain.smk`.
 
-## v0.1.0 - 2020-07-15
+## 0.1.0 - 2020-07-15
 
 ### Added
 
