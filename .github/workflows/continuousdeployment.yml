@@ -26,8 +26,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.ALLCAPS_TOKEN }}
       with:
-        tag_name: ${{ github.ref }}
-        release_name: Release ${{ github.ref }}
+        tag_name: v0.0.6
+        release_name: Release v0.0.6
         body: |
           Automated preprocessing of Next-Generation Sequencing data, including full (sc)ATAC-seq, ChIP-seq, and RNA-seq workflows.
 
